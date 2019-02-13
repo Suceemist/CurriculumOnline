@@ -8,27 +8,31 @@
     <title>EDITOR CURRICULUM</title>
   </head>
   <body>
-    <form action="server.php" method="post">
+    <div id="contenido_total">
+    <form action="registro_usuario.php" method="post">
 
-      <div id="sesion">
-          <label id="inicio">Inicio de sesión</label>
-
+      <div id="inicio">
+          <label>Inicio de sesión</label>
+          <br><br>
           <input id="usuario_sesion" type="text" name="usuario_sesion" placeholder="usuario"/>
 
           <input id="password_sesion" type="password" name="password_sesion" placeholder="contraseña">
 
-          <input type="submit">
+          <input id="boton_inicio" type="submit">
       </div>
 
       <div id="registro">
+         <label>Registro</label>
+         <br><br>
          <input id="usuario_registro" type="text" name="usuario_registro" placeholder="Nombre de usuario"><br>
 
          <input id="email_registro" type="text" name="email_registro" placeholder="E-mail"><br>
 
          <input id="password_registro" type="password" name="password_registro" placeholder="contraseña"><br>
 
-         <input type="submit">
+         <input id="boton_registro" type="submit">
       </div>
     </form>
+  </div>
   </body>
 </html>

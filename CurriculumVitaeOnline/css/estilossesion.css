@@ -1,8 +1,43 @@
-#sesion{
-  box-sizing: border-box;
-  position: absolute;
-  top: 90%;
-  width: 100%;
-  padding: 5px;
-  border: solid 1px #ccffff;
+body
+{
+   background-color: #cccccc;
+   background-image: url("../img/fondosesion1.jpg");
+   width: 100%;
+   margin: 0px;
+   height: auto;
+   background-size: cover;
+   background-repeat: repeat;
+}
+
+#contenido_total
+{
+  width:90%;
+}
+
+#inicio, #registro
+{
+font-family: Verdana, Geneva, sans-serif;
+font-size: 20px;
+margin-left: 10%;
+margin-top: 10%;
+padding: 15px;
+border: solid 1px #ccffff;
+background: rgba(41,184,229,0.59);
+background: -moz-linear-gradient(left, rgba(41,184,229,0.59) 0%, rgba(41,184,229,0.68) 21%, rgba(128,109,181,0.91) 77%, rgba(128,109,181,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(41,184,229,0.59)), color-stop(21%, rgba(41,184,229,0.68)), color-stop(77%, rgba(128,109,181,0.91)), color-stop(100%, rgba(128,109,181,1)));
+background: -webkit-linear-gradient(left, rgba(41,184,229,0.59) 0%, rgba(41,184,229,0.68) 21%, rgba(128,109,181,0.91) 77%, rgba(128,109,181,1) 100%);
+background: -o-linear-gradient(left, rgba(41,184,229,0.59) 0%, rgba(41,184,229,0.68) 21%, rgba(128,109,181,0.91) 77%, rgba(128,109,181,1) 100%);
+background: -ms-linear-gradient(left, rgba(41,184,229,0.59) 0%, rgba(41,184,229,0.68) 21%, rgba(128,109,181,0.91) 77%, rgba(128,109,181,1) 100%);
+background: linear-gradient(to right, rgba(41,184,229,0.59) 0%, rgba(41,184,229,0.68) 21%, rgba(128,109,181,0.91) 77%, rgba(128,109,181,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#806db5', GradientType=1 );
+}
+
+#inicio
+{
+
+}
+
+#registro
+{
+
 }
