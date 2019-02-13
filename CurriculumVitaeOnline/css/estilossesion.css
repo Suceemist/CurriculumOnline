@@ -1,0 +1,8 @@
+#sesion{
+  box-sizing: border-box;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  padding: 5px;
+  border: solid 1px #ccffff;
+}
